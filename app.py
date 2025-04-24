@@ -19,7 +19,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for cross-origin requests
 
 # MongoDB configuration
-app.config["MONGO_URI"] = "mongodb+srv://csewp499:computer@2025@cluster0.jesvftb.mongodb.net/feedback_db?retryWrites=true&w=majority&appName=Cluster0"
+app.config["MONGO_URI"] = "mongodb+srv://csewp499:computer123@cluster0.jesvftb.mongodb.net/feedback_db?retryWrites=true&w=majority&appName=Cluster0"
 
 mongo = PyMongo(app)
 
